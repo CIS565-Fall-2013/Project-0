@@ -11,7 +11,7 @@
 #include <GL/glfw.h>
 #include <cuda_runtime.h>
 
-#if CUDART_VERSION >= 5000
+#if CUDA_VERSION >= 5000
 	#include <helper_cuda.h>
 	#include <helper_cuda_gl.h>
 #else
