@@ -11,8 +11,15 @@
 #include <GL/glew.h>
 #include <GL/glut.h>
 #include <cuda_runtime.h>
-#include <cutil_inline.h>
-#include <cutil_gl_inline.h>
+
+#if CUDART_VERSION >= 5000
+	#include <helper_cuda.h>
+	#include <helper_cuda_gl.h>
+#else
+	#include <cutil_inline.h>
+	#include <cutil_gl_inline.h>
+#endif
+
 #include <cuda_gl_interop.h>
 #include <string>
 #include <iostream>

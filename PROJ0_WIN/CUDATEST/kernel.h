@@ -8,7 +8,12 @@
 
 #include <cuda.h>
 #include <cmath>
-#include <cutil_math.h>
+
+#if CUDA_VERSION >= 5000
+	#include <helper_math.h>
+#else
+	#include <cutil.math.h>
+#endif
 
 void cudaKernel(uchar4* pos, int width, int height, int major, int minor);
 

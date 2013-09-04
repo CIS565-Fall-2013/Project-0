@@ -6,7 +6,7 @@
 #include <stdio.h>
 #include <cuda.h>
 #include <cmath>
-#include <cutil_math.h>
+//#include <cutil_math.h>
 #include "kernel.h"
 #include <iostream>
 
