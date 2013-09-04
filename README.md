@@ -38,6 +38,9 @@ OSX: **NOTE: Karl was wonderful enough to provide OSX base code, however I've ne
 PART 2- FORK/CLONE PROJECT 0:
 -------------------------------------------------------------------------------
 
+* 1. Using GitHub fork this repository into your own account.
+* 2. Clone from GitHub onto your machine.
+
 -------------------------------------------------------------------------------
 PART 3- BUILD/RUN CUDATEST:
 -------------------------------------------------------------------------------
@@ -87,6 +90,8 @@ PART 4- MODIFY CUDATEST, RUN, SCREENSHOT, AND SUBMIT
 
 * 1. Line 15 of main.cpp contains a variable string set by default to "Your Name Here". Replace "Your Name Here" with your name, rebuild, and run CUDATEST. Take a screenshot of CUDATEST working on your machine.
 * 2. ADD your screenshot to your Git repository and check in your modified main.cpp and added screenshot. 
-* 3. If you are using Windows, make sure your modified CUDATEST can run in Moore100 or the SIG Lab. 
-* 4. You're done with Homework 0!
+* 2.5 If you are using Windows, make sure your modified CUDATEST can run in Moore100 or the SIG Lab. 
+* 3. Open a Pull Request so we can see that you have finished.
+* 4. Send an email to Liam With your name, github account name, and the grade you believe you deserve.
+* 5. You're done with Homework 0!
 
