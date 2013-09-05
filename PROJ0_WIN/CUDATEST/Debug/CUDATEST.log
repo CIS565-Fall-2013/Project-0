@@ -1,0 +1,22 @@
+﻿Build started 9/5/2013 4:45:03 PM.
+     1>Project "E:\gitprojects\Project-0\PROJ0_WIN\CUDATEST\CUDATEST.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\CUDATEST.unsuccessfulbuild".
+       AddCudaCompileDeps:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\cl.exe /E /nologo /showIncludes /TP /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\include" /I"C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.0/C/common/inc" /I../shared/glew/includes /I../shared/freeglut/includes /I"D:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\bin" /I"D:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\include" /I. /FIcuda_runtime.h /c E:\gitprojects\Project-0\PROJ0_WIN\CUDATEST\kernel.cu 
+       AddCudaCompilePropsDeps:
+       Skipping target "AddCudaCompilePropsDeps" because all output files are up-to-date with respect to the input files.
+       CudaBuild:
+         Compiling CUDA source file kernel.cu...
+         cmd.exe /C "C:\Users\Guanyu\AppData\Local\Temp\268a2b92bc2443e6863a9cd0dd26fa7a.cmd"
+         "D:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\bin\nvcc.exe" -gencode=arch=compute_10,code=\"sm_10,compute_10\" --use-local-env --cl-version 2010 -ccbin "d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\include" -I"C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.0/C/common/inc" -I"../shared/glew/includes" -I"../shared/freeglut/includes" -I"D:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\include"  -G0  --keep-dir "Debug" -maxrregcount=0  --machine 32 --compile  -D_NEXUS_DEBUG -g    -Xcompiler "/EHsc /nologo /Od /Zi  /MDd " -o "E:\gitprojects\Project-0\PROJ0_WIN\CUDATEST\Win32/Debug/kernel.cu.obj" "E:\gitprojects\Project-0\PROJ0_WIN\CUDATEST\kernel.cu"
+         
+         E:\gitprojects\Project-0\PROJ0_WIN\CUDATEST>"D:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\bin\nvcc.exe" -gencode=arch=compute_10,code=\"sm_10,compute_10\" --use-local-env --cl-version 2010 -ccbin "d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\include" -I"C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.0/C/common/inc" -I"../shared/glew/includes" -I"../shared/freeglut/includes" -I"D:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\include"  -G0  --keep-dir "Debug" -maxrregcount=0  --machine 32 --compile  -D_NEXUS_DEBUG -g    -Xcompiler "/EHsc /nologo /Od /Zi  /MDd " -o "E:\gitprojects\Project-0\PROJ0_WIN\CUDATEST\Win32/Debug/kernel.cu.obj" "E:\gitprojects\Project-0\PROJ0_WIN\CUDATEST\kernel.cu" 
+         kernel.cu
+     1>e:\gitprojects\project-0\proj0_win\cudatest\kernel.h(15): fatal error C1083: Cannot open include file: 'cutil_math.h': No such file or directory
+     1>E:\gitprojects\Project-0\PROJ0_WIN\Build\CUDA 4.0.targets(357,9): error MSB3721: The command ""D:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\bin\nvcc.exe" -gencode=arch=compute_10,code=\"sm_10,compute_10\" --use-local-env --cl-version 2010 -ccbin "d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\include" -I"C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.0/C/common/inc" -I"../shared/glew/includes" -I"../shared/freeglut/includes" -I"D:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\include"  -G0  --keep-dir "Debug" -maxrregcount=0  --machine 32 --compile  -D_NEXUS_DEBUG -g    -Xcompiler "/EHsc /nologo /Od /Zi  /MDd " -o "E:\gitprojects\Project-0\PROJ0_WIN\CUDATEST\Win32/Debug/kernel.cu.obj" "E:\gitprojects\Project-0\PROJ0_WIN\CUDATEST\kernel.cu"" exited with code 2.
+     1>Done Building Project "E:\gitprojects\Project-0\PROJ0_WIN\CUDATEST\CUDATEST.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:03.74
