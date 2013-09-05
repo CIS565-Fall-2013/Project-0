@@ -12,7 +12,7 @@
 
 int main(int argc, char* argv[]){
   //Change this line to use your name!
-  yourName = "[YOUR NAME HERE]";
+  yourName = "Collin Boots";
 
   init(argc, argv);
   initVAO();
@@ -75,7 +75,7 @@ void keyboard(unsigned char key, int x, int y)
 	std::cout << key << std::endl;
     switch (key) 
 	{
-	   case(27):
+	   case(27)://ESC
 	       exit(1);
 		   break;
 	}
