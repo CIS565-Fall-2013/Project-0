@@ -18,7 +18,7 @@ int main(int argc, char* argv[]){
   initVAO();
   initTextures();
   initCuda();
-
+  printf("Major %d, Minor %d\n", major, minor);//Output version number to console
   GLuint passthroughProgram;
   passthroughProgram = initShader("shaders/passthroughVS.glsl", "shaders/passthroughFS.glsl");
 
