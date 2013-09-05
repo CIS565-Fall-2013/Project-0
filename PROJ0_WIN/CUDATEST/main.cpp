@@ -12,13 +12,13 @@
 
 int main(int argc, char* argv[]){
   //Change this line to use your name!
-  yourName = "[YOUR NAME HERE]";
+  yourName = "Collin Boots";
 
   init(argc, argv);
   initVAO();
   initTextures();
   initCuda();
-
+  printf("Major %d, Minor %d\n", major, minor);//Output version number to console
   GLuint passthroughProgram;
   passthroughProgram = initShader("shaders/passthroughVS.glsl", "shaders/passthroughFS.glsl");
 
@@ -75,7 +75,7 @@ void keyboard(unsigned char key, int x, int y)
 	std::cout << key << std::endl;
     switch (key) 
 	{
-	   case(27):
+	   case(27)://ESC
 	       exit(1);
 		   break;
 	}
