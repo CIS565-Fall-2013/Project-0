@@ -10,7 +10,7 @@
 #include <cmath>
 
 #if CUDA_VERSION >= 5000
-	#include <helper_math.h>
+	#include <C:\ProgramData\NVIDIA Corporation\CUDA Samples\v5.5\common\inc\helper_math.h>
 #else
 	#include <cutil_math.h>
 #endif

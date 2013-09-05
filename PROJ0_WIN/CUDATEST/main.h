@@ -13,8 +13,8 @@
 #include <cuda_runtime.h>
 
 #if CUDART_VERSION >= 5000
-	#include <helper_cuda.h>
-	#include <helper_cuda_gl.h>
+	#include <C:\ProgramData\NVIDIA Corporation\CUDA Samples\v5.5\common\inc\helper_cuda.h>
+	#include <C:\ProgramData\NVIDIA Corporation\CUDA Samples\v5.5\common\inc\helper_cuda_gl.h>
 #else
 	#include <cutil_inline.h>
 	#include <cutil_gl_inline.h>
