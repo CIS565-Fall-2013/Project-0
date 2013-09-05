@@ -27,7 +27,6 @@
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>CUDATEST</RootNamespace>
     <ProjectName>CUDATEST</ProjectName>
-    <CudaToolkitCustomDir>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5</CudaToolkitCustomDir>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -40,6 +39,7 @@
     <UseDebugLibraries>false</UseDebugLibraries>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
+    <CudaToolkitCustomDir>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5</CudaToolkitCustomDir>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -65,12 +65,12 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\include;C:\ProgramData\NVIDIA Corporation\NVIDIA GPU Computing SDK 5.5\C\common\inc;../shared/glew/include;../shared/freeglut/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\include;C:\ProgramData\NVIDIA Corporation\NVIDIA GPU Computing SDK 4.0\C\common\inc;../shared/glew/include;../shared/freeglut/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>../shared/glew/lib;../shared/freeglut/lib;%(AdditionalLibraryDirectories);C:\ProgramData\NVIDIA Corporation\CUDA Samples\v5.5\common\inc</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>../shared/glew/lib;../shared/freeglut/lib;%(AdditionalLibraryDirectories);C:\ProgramData\NVIDIA Corporation\CUDA Samples\v4.0\common\inc</AdditionalLibraryDirectories>
       <AdditionalDependencies>cudart.lib; glew32.lib;glu32.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
       <IgnoreSpecificDefaultLibraries>
@@ -78,7 +78,7 @@
     </Link>
     <CudaCompile>
       <CompileOut>$(ProjectDir)$(Platform)/$(Configuration)/%(Filename)%(Extension).obj</CompileOut>
-      <Include>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\include;C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 5.5/C/common/inc;../shared/glew/includes;../shared/freeglut/includes</Include>
+      <Include>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\include;C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.0/C/common/inc;../shared/glew/includes;../shared/freeglut/includes</Include>
       <GPUDebugInfo>true</GPUDebugInfo>
     </CudaCompile>
   </ItemDefinitionGroup>
