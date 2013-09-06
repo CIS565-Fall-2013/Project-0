@@ -1,0 +1,15 @@
+﻿Build started 9/5/2013 7:57:00 PM.
+     1>Project "C:\Users\rohithc\Documents\CUDATEST\CUDATEST.vcxproj" on node 2 (clean target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\CUDATEST.lastbuildstate".
+       CudaClean:
+         cmd.exe /C "C:\Users\rohithc\AppData\Local\Temp\62a2cf425b144d4e990e12228a3f6edb.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\bin\nvcc.exe" -ccbin "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\include" -I"C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.0/C/common/inc" -I"../shared/glew/includes" -I"../shared/freeglut/includes" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\include"  -G0  --keep-dir "Debug" -maxrregcount=0  --machine 32 --compile  -D_NEXUS_DEBUG -g    -Xcompiler "/EHsc /nologo /Od /Zi  /MDd " -o "C:\Users\rohithc\Documents\CUDATEST\Win32/Debug/kernel.cu.obj" "C:\Users\rohithc\Documents\CUDATEST\kernel.cu" -clean
+         
+         C:\user>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\bin\nvcc.exe" -ccbin "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\include" -I"C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.0/C/common/inc" -I"../shared/glew/includes" -I"../shared/freeglut/includes" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\include"  -G0  --keep-dir "Debug" -maxrregcount=0  --machine 32 --compile  -D_NEXUS_DEBUG -g    -Xcompiler "/EHsc /nologo /Od /Zi  /MDd " -o "C:\Users\rohithc\Documents\CUDATEST\Win32/Debug/kernel.cu.obj" "C:\Users\rohithc\Documents\CUDATEST\kernel.cu" -clean 
+         Deleting file "Debug\kernel.cu.deps".
+     1>Done Building Project "C:\Users\rohithc\Documents\CUDATEST\CUDATEST.vcxproj" (clean target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.71
