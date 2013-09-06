@@ -8,6 +8,8 @@
 
 #include <cuda.h>
 #include <cmath>
+#include <cuda_runtime.h>
+#include <device_launch_parameters.h>
 
 #if CUDA_VERSION >= 5000
 	#include <helper_math.h>
