@@ -12,7 +12,7 @@
 
 int main(int argc, char* argv[]){
   //Change this line to use your name!
-  yourName = "[YOUR NAME HERE]";
+  yourName = "Yingting Xiao";
 
   init(argc, argv);
   initVAO();
