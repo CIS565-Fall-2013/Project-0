@@ -13,6 +13,7 @@
 
 # Visual Studio Stuff
 *.suo
+*.sdf
 
 # Mac Stuff
 *.DS_Store
