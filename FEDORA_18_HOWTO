@@ -1,0 +1,10 @@
+Here's what I had to do to get this homework assignment to build on Fedora 18:
+
+All the steps, based on http://www.r-tutor.com/gpu-computing/cuda-installation/cuda5.5-fc18:
+
+1. Uninstall the Nvidia drivers that I had installed from the RPMFusion repository.
+2. Install the Nvidia drivers from the CUDA repository. The installer will fail to build the Nvidia Kernel modules because Fedora 18 currently runs kernel 3.10. Therefore, I had to apply this patch: http://pastebin.com/N0a5KMZa then manually execute the rest of the install scripts inside the RPM package.
+3. Install CUDA per the tutorial in the link.
+4. I couldn't get GLFW to work, so I used the Windows version as a starting point instead of the Mac Version :-P
+5. I customized the Mac version's makefile to get it to compile.
+6. I couldn't get Git to authenticate over HTTPS for some bizarre reason. I did it through SSH, by generating keys first: https://help.github.com/articles/generating-ssh-keys
